@@ -1,0 +1,220 @@
+*{
+    font-family: "Segoe UI";
+    box-sizing:border-box;
+    margin:0px;
+   
+}
+.Home-container{
+    display:flex;
+    justify-content:space-between;
+    min-height: 100vh;
+    padding-top: 80px; 
+    scroll-margin-top: 80px; 
+    padding:3rem 2rem 0rem 2rem;
+}
+.About-container{
+    
+    min-height: 100vh;
+    padding-top: 80px; 
+  
+}
+.skills-container{
+    min-height: 100vh;
+    padding-top: 80px;
+    padding:2rem 2rem 0rem 2rem;
+    background-color: #e6e6e6;
+    
+}
+.skill-container-dark{
+   background-color:#000000;
+}
+.project-container{
+    min-height: 100vh;
+    padding-top: 80px;
+    padding:2rem 2rem 0rem 2rem;
+}
+.contact-container{
+    min-height: 80vh;
+    padding-top: 80px;
+    padding:2rem 2rem 0rem 2rem;
+    background-color: #e6e6e6;
+}
+.contact-container-dark{
+    background-color:#000000;
+}
+.All-containers{
+   background-color:#ffffff;
+}
+.All-containers-dark{
+   background-color: #000000;
+}
+/* .Controller{
+padding:3rem 2rem 0rem 2rem;
+overflow: auto;
+
+} */
+.social-media-accounts{
+    align-self:center;
+}
+.social-media-accounts div{
+    padding-bottom:10px;
+    cursor:pointer;
+    
+}
+.gmail-container{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    align-self:center;
+}
+.vertical-email{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom:20px;
+}
+.vertical-email span{
+    transform:rotate(-90deg);
+    display:inline-block;
+    font-size:18px;
+    line-height: 12px;
+    font-weight:600;
+}
+.vertical-email-dark span{
+    color:#ffffff;
+    
+}
+.line-container{
+    align-self:flex-end;
+}
+.line{
+    width:25px;
+    border:3px solid #000000;
+}
+.line-dark{
+    border:3px solid #ffffff;
+}
+.introduce-section{
+    align-self:center;
+}
+.animation-container{
+   margin-top:40px;
+   align-self:center;
+}
+
+.name{
+    margin-top:0px;
+    font-size:50px;
+    margin-bottom:8px;
+}
+.name-special{
+    color:#737373;
+    text-decoration:underline;
+    text-decoration-color:#000000;
+    padding-bottom:5px;
+    
+}
+.name-special-dark{
+    text-decoration-color:#ffffff;
+}
+.career{
+    font-size:25px;
+    font-weight:lighter;
+    color:#000000;
+    margin-top:0px;
+}
+.career-dark{
+    color:#ffffff;
+    font-weight:500;
+}
+
+.download-cv{
+    width:175px;
+    height:60px;
+    background-image:linear-gradient(to right,#DF580C,#FD993D);
+    border-radius:10px;
+    color:#FEFEFE;
+    font-size:20px; 
+    border: 3px solid #ffffff;
+    outline:none;
+    cursor:pointer;
+    box-shadow: 0px 10px 25px 0px #000000;
+    margin:20px 20px 0px 0px;
+    font-weight:500;
+}
+.get-in-touch-btn{
+    background-image:linear-gradient(to right,#434343,#000000);
+
+}
+.download-cv:hover{
+    font-weight:900;
+}
+.profile-photo-container{
+    display:flex;
+    
+}
+.hello-container{
+    align-self:center;
+}
+.profile-photo{
+    width:80%;
+    border:8px solid #000000;
+    border-radius:150px;
+}
+.profile-photo-dark{
+    border:8px solid #ffffff;
+}
+
+@media (max-width:768px){
+    .Home-container{
+
+        width:100%;
+        padding-top: 120px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+    
+    }
+    
+    .social-media-accounts{
+        display:none;
+    }
+   .gmail-container{
+    display:none;
+   }
+   .hello-medium{
+    font-size:22px;
+    font-weight:600;
+   }
+   .Iam-medium{
+    font-size:32px;
+    font-weight:bold;
+   }
+   .name-special{
+     font-size:30px;
+   }
+   .career{
+     font-size:22px;
+   }
+   .profile-photo{
+    border-width:4px;
+   }
+   .download-cv{
+     font-size:18px;
+    
+   }
+   .animation-container{
+    margin-top:100px;
+    margin-bottom:30px;
+   }
+   .skill-text-medium {
+     font-size:30px;
+   
+   }
+   .project-text-medium{
+      font-size:30px;
+      margin-top:10px;
+      margin-bottom:30px;
+   }
+   
+}

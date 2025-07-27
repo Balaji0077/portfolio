@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+*{
+    font-family: "Segoe UI";
+    box-sizing: border-box;
+
+}
+
+.name-logo-container{
+     width:40px;
+    height:40px;
+}
+
+.name-logo{
+    width:100%;
+    cursor:pointer;
+} 
+.home-name{
+    cursor:pointer;
+    font-weight:bold;
+    font-size:30px;
+    padding-left:10px;
+}
+
+.home-name-dark{
+    cursor:pointer;
+    font-weight:bold;
+    font-size:30px;
+    padding-left:10px;
+    color:#ffffff;
+}
+.home-logo-name-container{
+    display:flex;
+    align-items:center;
+    width:30vw;
+}
+.nav-bar{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    width:100%;
+    padding:2rem 2rem 0rem 2rem;
+    
+}
+.nav-content-toggle-container{
+    display:flex;
+    align-items:flex-start;
+    
+}
+.nav-content{
+    width:40vw;
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-around;
+}
+
+.item-color{
+    color:#ffffff;
+}
+.nav-content p {
+     font-size:20px;
+     font-weight:500;
+     color:#000000;
+     cursor:pointer;
+     padding:8px;
+     
+}
+.nav-content p:hover{
+   background-color: #f3f3f3;
+   border-radius:8px;
+  
+}
+.nav-content-dark p{
+    color:#ffffff;
+}
+.nav-content-dark p:hover{
+   background-color: #191919;
+   border-radius:8px;
+ 
+}
+.toggle-container{
+    width:50px;
+    height:50px;
+    align-self: flex-start;
+    padding-left:20px;
+  
+}
+.toggle-image{
+   
+    cursor:pointer;
+}
+
+.nav-dark{
+    background-color:#000000;
+}
+
+.medium-container-sidebar{
+    display:none;
+}
+.sunny{
+     cursor:pointer;         
+}
+.Moon{
+cursor:pointer;  
+      
+}
+.sunny-large{
+    margin-top:5px;
+}
+
+@media (max-width:768px){
+    .name-logo-container{
+        display:none;
+    }
+    .home-name{
+        font-size:15px;
+        font-weight:bolder;
+    }
+    /* .home-logo-name-container{
+        width:50vw;
+    } */
+    .nav-content{
+        display:none;
+    }
+    .medium-container-sidebar{
+        display:block;
+        font-size:30px;
+        padding:0px 2px 0px 16px;
+    }
+    .sunny{
+        font-size:35px;
+    }
+    .Moon{
+        font-size:26px  !important;
+    }
+    .medium-nav{
+       max-width:100vw;
+      padding-top:20px;
+    }
+    .sunny-large{
+    margin-top:0px;
+}
+}

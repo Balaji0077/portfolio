@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+.App-container{
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  margin:0px;
+}
+.medium-navbar{
+  padding:20px;
+  position:fixed;
+  top:0%;
+  left:0%;
+  right:0%;
+  bottom:0%;
+  background-image:url("./assets/bg-cover.png");
+  min-height:150vh;
+}
+
+.medium-navbar-dark{
+   padding:20px;
+  position:fixed;
+  top:0%;
+  left:0%;
+  right:0%;
+  bottom:0%;
+  min-height:150vh;
+   background-color:#000000;
+}
+.app-container-wrong-btn{
+   width:40px;
+   
+}
+.app-name{
+  align-self:center;
+ 
+}
+.wrong-app-container{
+  display:flex;
+  justify-content:space-between;
+}
+.medium-nav-content{
+  margin-top:20px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+  min-height:50vh;
+}
+.medium-nav-content h1{
+  font-family: "IBM Plex Mono";
+  font-size:22px;
+  font-weight:500;
+  color:#464545;
+}
+.medium-nav-content-dark h1{
+     color:#ffffff;
+     cursor:pointer;
+}
+
+.download-app-button{
+  display:flex;
+  align-items:center;
+  background-color:#000000;
+  color:#ffffff;
+   font-family: "IBM Plex Mono";
+   font-size:18px;
+   padding:12px;
+   outline:none;
+   border-width:0px;
+   border-radius:14px;
+}
+.download-app-button-dark{
+    background-color:#ffffff;
+    color:#000000;
+}
+.download-icon{
+  align-self:center;
+}
+
