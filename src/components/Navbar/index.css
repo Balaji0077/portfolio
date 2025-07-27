@@ -3,11 +3,10 @@
 *{
     font-family: "Segoe UI";
     box-sizing: border-box;
-
 }
 
 .name-logo-container{
-     width:40px;
+    width:40px;
     height:40px;
 }
 
@@ -38,17 +37,16 @@
     display:flex;
     align-items:flex-start;
     justify-content:space-between;
-    width:100%;
+    width:100vw;
     padding:2rem 2rem 0rem 2rem;
     
 }
 .nav-content-toggle-container{
     display:flex;
     align-items:flex-start;
-    
 }
 .nav-content{
-    width:40vw;
+    width:60vw;
     display:flex;
     align-items:flex-start;
     justify-content:space-around;
@@ -86,7 +84,6 @@
   
 }
 .toggle-image{
-   
     cursor:pointer;
 }
 
@@ -101,11 +98,12 @@
      cursor:pointer;         
 }
 .Moon{
-cursor:pointer;  
-      
+ cursor:pointer;      
 }
+
 .sunny-large{
-    margin-top:5px;
+    margin-top: 5px; 
+    font-size: 20px;
 }
 
 @media (max-width:768px){
