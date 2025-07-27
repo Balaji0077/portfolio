@@ -9,23 +9,25 @@
 }
 .medium-navbar{
   padding:20px;
+  padding-top:30px;
   position:fixed;
   top:0%;
   left:0%;
   right:0%;
   bottom:0%;
-  background-image:url("./assets/bg-cover.png");
-  min-height:150vh;
+  background-color: #d9dadb;
+  min-height:100vh;
 }
 
 .medium-navbar-dark{
    padding:20px;
+   padding-top:30px;
   position:fixed;
   top:0%;
   left:0%;
   right:0%;
   bottom:0%;
-  min-height:150vh;
+  min-height:100vh;
    background-color:#000000;
 }
 .app-container-wrong-btn{
@@ -44,7 +46,7 @@
   margin-top:20px;
   display:flex;
   flex-direction:column;
-  justify-content:space-around;
+  justify-content:center;
   align-items:center;
   min-height:50vh;
 }
@@ -53,6 +55,7 @@
   font-size:22px;
   font-weight:500;
   color:#464545;
+  padding-bottom:20px;
 }
 .medium-nav-content-dark h1{
      color:#ffffff;

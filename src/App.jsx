@@ -2,7 +2,7 @@ import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import { Link } from "react-scroll"
 import NavDark from "./assets/NavDark.jpg"
-import nameLogo from "./assets/Logo.jpg"
+import LogoDark from "./assets/LogoDark.png"
 import { IoCloseSharp } from "react-icons/io5";
 import { useSelector , useDispatch} from "react-redux"
 import PortfolioSlice from "./components/redux/PortfolioSlice"
@@ -29,7 +29,7 @@ function App() {
                   <div className="wrong-app-container">
                     
                     <div className="app-container-wrong-btn">
-                      <img src={darkMode?NavDark:nameLogo} className="name-logo" alt="name-icon" />
+                      <img src={darkMode?NavDark:LogoDark} className="name-logo" alt="name-icon" />
                     </div> 
                     
                      <h1 className={`${darkMode?"app-name font-bold text-white":"app-name font-bold"}`}>BALAJI SUGUR</h1>
