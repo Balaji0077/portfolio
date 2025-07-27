@@ -1,7 +1,7 @@
 import Rectangle from "../../assets/Rectangle.jpg"
 import HandDark from "../../assets/HandDark.png"
-import Vector1 from "../../assets/Vector 4.jpg"
-import Vector2 from "../../assets/Vector 5.jpg"
+import Vector1 from "../../assets/Vector4.jpg"
+import Vector2 from "../../assets/Vector5.jpg"
 import Vector1Dark from "../../assets/Vector4Dark.png"
 import Vector2Dark from "../../assets/Vector5Dark.png"
 
